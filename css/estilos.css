@@ -1,0 +1,73 @@
+/*Contenedor principal*/
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #242933;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+
+/*Estilo las etiquetas*/
+label {
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/*Campos de entrada*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: none;
+  background-color: #3b4252; /* Fondo de los campos */
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+/* Cambia el color del borde escribir o seleccionar */
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #00b894; 
+}
+
+/* Ajustes de la casilla de verificación */
+input[type="checkbox"] {
+  align-self: flex-start;
+  margin-top: 20px;
+  accent-color: #00b894;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+  margin-top: 0;
+  color: #a0aec0;
+}
+
+/*Botón de envío principal*/
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #00b894;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/*Efecto al pasar el cursor sobre el botón*/
+button:hover {
+  background-color: #00a383; /* Verde un poco más oscuro */
+}
